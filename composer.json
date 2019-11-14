@@ -20,7 +20,7 @@
 
   "scripts": {
     "post-create-project-cmd": [
-       "script.php"
+       "php script.php"
      ],
     "test": [
       "phpcs"
