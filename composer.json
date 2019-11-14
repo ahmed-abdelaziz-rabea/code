@@ -20,7 +20,9 @@
 
   "scripts": {
     "post-root-package-install": [
-       "composer create-project roots/bedrock"
+       "composer create-project roots/bedrock",
+       "cd code95-project/bedrock/web/app/theme",
+       "composer create-project roots/sage"
     ],
     "test": [
       "phpcs"
