@@ -2,7 +2,7 @@
   "name": "create/code95-project",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress v1 boilerplate with modern development tools, easier configuration, and an improved folder structure",
+  "description": "WordPress v2 boilerplate with modern development tools, easier configuration, and an improved folder structure",
   "homepage": "https://github.com/AhmedAbdelazizRabea/code95",
   "authors": [
     {
