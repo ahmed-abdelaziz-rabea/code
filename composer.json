@@ -18,12 +18,18 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
 
+  "autoload" : {
+    "psr-4" : {"setup\\" : "code95-project/src/"}
+  },
+
   "scripts": {
     "post-create-project-cmd": [
-       "php script.php"
+       "php script.php",
+       "php index.php"
      ],
     "test": [
       "phpcs"
     ]
   }
+
 }
