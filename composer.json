@@ -20,7 +20,7 @@
 
   "scripts": {
     "post-create-project-cmd": [
-       "composer create-project roots/bedrock && cd bedrock/web/app/themes && composer create-project roots/sage"
+       "script.php"
      ],
     "test": [
       "phpcs"
