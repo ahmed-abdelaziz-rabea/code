@@ -19,9 +19,11 @@
   "prefer-stable": true,
 
   "scripts": {
-     
+    "post-root-package-install": [
+       "composer create-project roots/bedrock"
+    ],
     "post-package-install": [
-       "pwd"
+       "cd bedrock/web/app/themes"
     ],
     "post-root-package-install-cmd": [
        "composer create-project roots/sage"
