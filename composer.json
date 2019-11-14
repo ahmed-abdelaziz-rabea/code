@@ -13,15 +13,14 @@
   ],
   "require": {
     "php": ">=7.1",
-    "composer/installers": "^1.7",
-    "another-vendor/package": "1.*"
+    "composer/installers": "^1.7"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
 
   "scripts": {
     "post-root-package-install": [
-      "php -r \"copy('.env.example', '.env');\""
+       "composer create-project roots/bedrock"
     ],
     "test": [
       "phpcs"
