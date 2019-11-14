@@ -19,9 +19,7 @@
   "prefer-stable": true,
 
   "scripts": {
-    "post-root-package-install": [
-       "composer create-project roots/bedrock"
-    ],
+     
     "post-package-install": [
        "pwd"
     ],
