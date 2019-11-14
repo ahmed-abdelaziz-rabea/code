@@ -22,13 +22,6 @@
     "post-root-package-install": [
        "composer create-project roots/bedrock"
     ],
-    "post-package-install": [
-       "cd code95-project/bedrock/web/app/theme"
-    ],
-    "post-root-package-install-cmd": [
-       "composer create-project roots/sage"
-    ],
-
     "test": [
       "phpcs"
     ]
