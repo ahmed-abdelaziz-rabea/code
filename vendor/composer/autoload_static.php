@@ -20,7 +20,7 @@ class ComposerStaticInit20cc3d1bfab3d3131117789c55c88622
     public static $prefixDirsPsr4 = array (
         'setup\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/code95-project/src',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Composer\\Installers\\' => 
         array (

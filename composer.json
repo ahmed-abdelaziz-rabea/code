@@ -19,16 +19,12 @@
   "prefer-stable": true,
 
   "autoload" : {
-    "psr-4" : {"setup\\" : "code95-project/src/"}
+    "psr-4" : {"setup\\" : "src/"}
   },
 
   "scripts": {
     "post-create-project-cmd": [
-       "php script.php",
-       "php index.php"
-     ],
-    "test": [
-      "phpcs"
+      "setup\\Console::StaticMethod"
     ]
   }
 

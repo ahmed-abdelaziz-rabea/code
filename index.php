@@ -1,4 +1,5 @@
 <?php
-require ('code95-project/vendor/autoload.php');
 use setup\Console;
+
+require ('vendor/autoload.php');
 Console::StaticMethod();
